@@ -1,8 +1,12 @@
 <template>
-    <div class="bg-gray-100">
+    <div class="bg-gray-100 min-h-full">
         <navbar />
         <main>
-        <router-view />
+            
+            <div class="max-w-[1000px] mx-auto">
+                <router-view />
+            </div>
+
         </main>
 
  </div>
